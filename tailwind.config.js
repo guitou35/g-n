@@ -20,6 +20,9 @@ export default {
         'tblanc' : '#FFFFFF',
         'tbeige' : '#F7F4F4'
 
+      },
+      fontFamily: {
+        "cormorant" : ['"Cormorant"', 'serif']
       }
     }
   },

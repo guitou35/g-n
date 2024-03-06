@@ -6,6 +6,7 @@ import { createPinia } from 'pinia';
 import App from './App.vue';
 import router from './router';
 import './index.css';
+import firebaseConfig from './firebaseConfig.js';
 
 import VueCountdown from '@chenfengyuan/vue-countdown';
 

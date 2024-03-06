@@ -8,13 +8,9 @@ import Header from './Header.vue';
 <template>
   <Header />
 
-  <RouterView class="content" />
+  <RouterView/>
   <Footer />
 </template>
 
 <style scoped>
-.content {
-    @apply md:mx-auto;
-  min-height: calc(80vh);
-}
 </style>

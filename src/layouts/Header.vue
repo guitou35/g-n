@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <nav class="bg-transparent border-gray-200 py-4 dark:bg-gray-900 md:text-xl text-lg">
+  <header class="h-[71px]">
+    <nav class="bg-white border-gray-200 py-4 md:text-xl text-lg fixed w-full z-20 top-0 start-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div class="flex items-center w-20 pl-2">
           <RouterLink to="/" class="">N&G</RouterLink>

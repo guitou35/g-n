@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="story-content ">
-      <h1 class="story-title reveal reveal-1">Notre histoire</h1>
+      <h1 class="text-title reveal reveal-1">Notre histoire</h1>
       <img src="@/assets/nous.jpg" alt="Photo de nous" class="img-nous" />
       <div class="container-timeline ">
         <TimeLine />
@@ -19,9 +19,6 @@ import TimeLine from '../components/TimeLine.vue';
 </script>
 
 <style>
-.story-title {
-  @apply text-[4rem] md:text-8xl text-gray-600 font-bold my-[3rem];
-}
 .story-content {
   @apply md:mx-auto flex flex-col justify-around items-center bg-tbeige;
   min-height: calc(80vh);

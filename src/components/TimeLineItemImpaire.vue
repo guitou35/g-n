@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-wrapper_item reveal">
-    <div class="text-4xl basis-1/2 mx-[1em] text-end text-tgreen font-bold reveal-1">
+    <div class="text-6xl basis-1/2 mx-[0.5em] text-end text-tgreen reveal-1 font-cormorant">
       <slot name="time"></slot>
     </div>
     <div class="basis-1/2 mx-[2em]">

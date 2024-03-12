@@ -9,7 +9,7 @@
         <slot name="paragraph"></slot>
       </p>
     </div>
-    <div class="text-4xl basis-1/2 mx-[1em] text-tgreen font-bold reveal reveal-1">
+    <div class="text-6xl basis-1/2 mx-[0.5em] text-tgreen reveal reveal-1 font-cormorant">
       <slot name="time"></slot>
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
         <vue-countdown :time="time" :interval="100" :transform="transformSlotProps" v-slot="{ days, hours, minutes, seconds }" title="24 Aout 2024">
-            <div class="grid grid-cols-4 gap-1 justify-items-center mx-auto my-2 p-2 text-black font-cormorant">
+            <div class="grid grid-cols-4 gap-1 justify-items-center mx-auto my-2 p-2 text-black font-cormorant text-tgreen text-date-title">
                     <div>{{ days }}</div>
                     <div>{{ hours }}</div>
                     <div>{{ minutes }}</div>
@@ -39,7 +39,10 @@
   
   <style>
   .text-date_countdown{
-    @apply text-[0.6rem] uppercase text-black;
+    @apply text-[1.5rem] uppercase text-black;
+  }
+  .text-date-title{
+    @apply md:text-[4em] text-[2em];
   }
   </style>
   
